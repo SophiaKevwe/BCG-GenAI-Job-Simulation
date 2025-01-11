@@ -1,0 +1,10 @@
+Documentation
+Summary: This chatbot is designed to respond to financial queries based on a dataset of company financials. The chatbot provides answers to predefined queries about total revenue, net income changes, profit margins, and debt-to-assets ratios.
+
+Sample Predefined Queries: "What is the total revenue for Microsoft in 2024?" "What is the profit margin for Tesla in 2023?" "What is the net income growth percentage for Apple in 2023?"
+
+How It Works:
+
+The chatbot takes user input and matches it with predefined queries. If a match is found, it returns the corresponding response with financial data. If the query is not recognized, it returns a message indicating that only predefined queries are supported. Limitations:
+
+The chatbot can only answer the predefined queries that have been mapped. The responses are based on the static data provided in the example, so it does not dynamically fetch or update financial data.
